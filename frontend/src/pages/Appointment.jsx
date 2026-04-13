@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { useNavigate, useParams } from 'react-router-dom';
-import { AppContext } from '../context/App.Context';
+import { AppContext } from '../context/App.context';
 import { assets } from '../assets/assets';
 import RelatedDoctors from '../components/RelatedDoctors';
 import { toast } from 'react-toastify';
